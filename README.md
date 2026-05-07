@@ -1,5 +1,7 @@
 # Weekly sales forecasting (case study)
 
+**Demo video:** *(add your link here after you upload — see [Demo video (submission)](#demo-video-submission))*
+
 End-to-end pipeline: load `Forecasting Case- Study.xlsx`, engineer lag / calendar / rolling features, compare **SARIMAX**, **Prophet**, **XGBoost** (recursive), and **LSTM**, pick the best model per state on a trailing validation window, then forecast **8 weeks** ahead.
 
 ## Setup
@@ -91,3 +93,30 @@ Repository: [github.com/Meetamadhu/Forecast](https://github.com/Meetamadhu/Forec
 | **No leakage** | `forecasting/splits.py` — strictly chronological train/val. |
 | **API** | `api/main.py` — `GET /health`, `GET /states`, `GET /forecast/{state}`, `POST /train`. Open **http://127.0.0.1:8000/docs** after `uvicorn api.main:app --host 127.0.0.1 --port 8000`. |
 | **Prebuilt outputs (optional)** | `artifacts/manifest.json` is committed so the API can be tested **without** retraining. To refresh: `python scripts/train.py`. |
+
+## Demo video (submission)
+
+Evaluators asked for a **short video** together with **code** and **documentation**. Typical submission bundle:
+
+1. **GitHub repo** — [Meetamadhu/Forecast](https://github.com/Meetamadhu/Forecast) (README + PDF + Excel + code).
+2. **Video** — upload to **YouTube (Unlisted)**, **Google Drive**, **OneDrive**, or your course portal; submit the link where your instructor specifies.
+
+After uploading, add one line near the top of this README, e.g. **`Demo video: https://…`**, commit, and push so the link ships with the repo.
+
+### Suggested outline (~**5–8 minutes**)
+
+| Time | Show / say |
+|------|------------|
+| **0:00–0:45** | Goal: **8-week** sales forecast **per state**; four models (**SARIMAX, Prophet, XGBoost, LSTM**); **best model** chosen by validation RMSE. |
+| **0:45–2:00** | **Features**: open `forecasting/features.py` — lags **1 / 7 / 30**, rolling **mean/std**, **dow**, **month**, **holiday_week**; **split**: `forecasting/splits.py` (time-ordered, no shuffle). |
+| **2:00–3:30** | **Outputs**: `artifacts/manifest.json` — **`best_model`**, **`validation_rmse`**, **`forecast_weeks`** (8 steps). Optionally show **`python scripts/train.py`** for a few seconds (or skip—training is long). |
+| **3:30–6:00** | **API**: terminal — `uvicorn api.main:app --host 127.0.0.1 --port 8765` → browser **`/docs`** → **`GET /states`** → **`GET /forecast/Texas`** — show JSON response. |
+| **End** | Point to **README** “For evaluators” + repo URL; mention **`POST /train`** if you want to show retraining (optional). |
+
+### Recording on Windows
+
+- **Xbox Game Bar**: `Win + G` → Widget menu → Capture → Start recording.  
+- **PowerPoint**: **Insert → Screen recording**.  
+- **OBS Studio** (free): display capture + optional microphone.
+
+Use **720p/1080p**, zoom browser (**Ctrl + +**), pause on JSON so numbers are readable.
