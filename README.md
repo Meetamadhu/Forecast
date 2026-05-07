@@ -78,3 +78,16 @@ OpenAPI: `http://127.0.0.1:8000/docs` (change port if you used a different one)
 The loader auto-detects columns whose names suggest **date**, **state** (or region), and **sales** (or revenue / units / **Total**). Rename columns in the workbook if detection fails.
 
 **Totals formatted as text** (e.g. `1,234.56` or `$1,234`) are normalized before parsing. If forecasts and RMSEs in `manifest.json` are all zeros, re-run training after pulling the latest code—your `Total` column may have been misread as NaN before this fix.
+
+## For evaluators
+
+Repository: [github.com/Meetamadhu/Forecast](https://github.com/Meetamadhu/Forecast)
+
+| What to verify | How |
+|----------------|-----|
+| **Data & case brief** | `Case - Study - Forecasting.pdf`, `Forecasting Case- Study.xlsx` in repo root. |
+| **Four models + selection** | `forecasting/model_zoo.py` — SARIMAX, Prophet, XGBoost, LSTM; `pick_best` on validation RMSE; `forecasting/trainer.py` refits winner and writes 8-week horizon. |
+| **Feature engineering** | See table under **Feature engineering** above; code in `forecasting/features.py`. |
+| **No leakage** | `forecasting/splits.py` — strictly chronological train/val. |
+| **API** | `api/main.py` — `GET /health`, `GET /states`, `GET /forecast/{state}`, `POST /train`. Open **http://127.0.0.1:8000/docs** after `uvicorn api.main:app --host 127.0.0.1 --port 8000`. |
+| **Prebuilt outputs (optional)** | `artifacts/manifest.json` is committed so the API can be tested **without** retraining. To refresh: `python scripts/train.py`. |

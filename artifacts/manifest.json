@@ -1,0 +1,1894 @@
+[
+  {
+    "state": "Alabama",
+    "best_model": "xgboost",
+    "validation_rmse": {
+      "sarima": 211887911.15609497,
+      "prophet": 158686994.57238218,
+      "xgboost": 92935952.45489706,
+      "lstm": 173155748.66801843
+    },
+    "forecast_weeks": [
+      {
+        "week_start": "2023-12-10",
+        "forecast_sales": 115907552.0
+      },
+      {
+        "week_start": "2023-12-17",
+        "forecast_sales": 98803760.0
+      },
+      {
+        "week_start": "2023-12-24",
+        "forecast_sales": 74233448.0
+      },
+      {
+        "week_start": "2023-12-31",
+        "forecast_sales": 78132216.0
+      },
+      {
+        "week_start": "2024-01-07",
+        "forecast_sales": 106813448.0
+      },
+      {
+        "week_start": "2024-01-14",
+        "forecast_sales": 129195368.0
+      },
+      {
+        "week_start": "2024-01-21",
+        "forecast_sales": 21996478.0
+      },
+      {
+        "week_start": "2024-01-28",
+        "forecast_sales": 103989224.0
+      }
+    ]
+  },
+  {
+    "state": "Arizona",
+    "best_model": "xgboost",
+    "validation_rmse": {
+      "sarima": 226954077.60079426,
+      "prophet": 169930147.21950337,
+      "xgboost": 125196820.55334899,
+      "lstm": 150111834.87331
+    },
+    "forecast_weeks": [
+      {
+        "week_start": "2023-12-10",
+        "forecast_sales": 81968616.0
+      },
+      {
+        "week_start": "2023-12-17",
+        "forecast_sales": 102588656.0
+      },
+      {
+        "week_start": "2023-12-24",
+        "forecast_sales": 63468552.0
+      },
+      {
+        "week_start": "2023-12-31",
+        "forecast_sales": 64059828.0
+      },
+      {
+        "week_start": "2024-01-07",
+        "forecast_sales": 95958576.0
+      },
+      {
+        "week_start": "2024-01-14",
+        "forecast_sales": 83032880.0
+      },
+      {
+        "week_start": "2024-01-21",
+        "forecast_sales": 60638484.0
+      },
+      {
+        "week_start": "2024-01-28",
+        "forecast_sales": 98055960.0
+      }
+    ]
+  },
+  {
+    "state": "Arkansas",
+    "best_model": "xgboost",
+    "validation_rmse": {
+      "sarima": 114065612.26054266,
+      "prophet": 83357383.89824668,
+      "xgboost": 70658028.4274038,
+      "lstm": 82069946.45920084
+    },
+    "forecast_weeks": [
+      {
+        "week_start": "2023-12-10",
+        "forecast_sales": 59672436.0
+      },
+      {
+        "week_start": "2023-12-17",
+        "forecast_sales": 52697896.0
+      },
+      {
+        "week_start": "2023-12-24",
+        "forecast_sales": 36479648.0
+      },
+      {
+        "week_start": "2023-12-31",
+        "forecast_sales": 34742060.0
+      },
+      {
+        "week_start": "2024-01-07",
+        "forecast_sales": 54294168.0
+      },
+      {
+        "week_start": "2024-01-14",
+        "forecast_sales": 63402000.0
+      },
+      {
+        "week_start": "2024-01-21",
+        "forecast_sales": 18328546.0
+      },
+      {
+        "week_start": "2024-01-28",
+        "forecast_sales": 51561412.0
+      }
+    ]
+  },
+  {
+    "state": "California",
+    "best_model": "xgboost",
+    "validation_rmse": {
+      "sarima": 910889681.4213343,
+      "prophet": 667632742.7207264,
+      "xgboost": 421732234.14880675,
+      "lstm": 623932749.2768295
+    },
+    "forecast_weeks": [
+      {
+        "week_start": "2023-12-10",
+        "forecast_sales": 348356448.0
+      },
+      {
+        "week_start": "2023-12-17",
+        "forecast_sales": 261172384.0
+      },
+      {
+        "week_start": "2023-12-24",
+        "forecast_sales": 217250384.0
+      },
+      {
+        "week_start": "2023-12-31",
+        "forecast_sales": 219661760.0
+      },
+      {
+        "week_start": "2024-01-07",
+        "forecast_sales": 309294944.0
+      },
+      {
+        "week_start": "2024-01-14",
+        "forecast_sales": 255439504.0
+      },
+      {
+        "week_start": "2024-01-21",
+        "forecast_sales": 53069860.0
+      },
+      {
+        "week_start": "2024-01-28",
+        "forecast_sales": 204734848.0
+      }
+    ]
+  },
+  {
+    "state": "Colorado",
+    "best_model": "xgboost",
+    "validation_rmse": {
+      "sarima": 181653477.01414263,
+      "prophet": 131645562.36466935,
+      "xgboost": 87291014.68266253,
+      "lstm": 116022054.68721376
+    },
+    "forecast_weeks": [
+      {
+        "week_start": "2023-12-10",
+        "forecast_sales": 91434120.0
+      },
+      {
+        "week_start": "2023-12-17",
+        "forecast_sales": 92424656.0
+      },
+      {
+        "week_start": "2023-12-24",
+        "forecast_sales": 62022164.0
+      },
+      {
+        "week_start": "2023-12-31",
+        "forecast_sales": 67789200.0
+      },
+      {
+        "week_start": "2024-01-07",
+        "forecast_sales": 97441952.0
+      },
+      {
+        "week_start": "2024-01-14",
+        "forecast_sales": 82461256.0
+      },
+      {
+        "week_start": "2024-01-21",
+        "forecast_sales": 54966092.0
+      },
+      {
+        "week_start": "2024-01-28",
+        "forecast_sales": 79901120.0
+      }
+    ]
+  },
+  {
+    "state": "Connecticut",
+    "best_model": "xgboost",
+    "validation_rmse": {
+      "sarima": 91850193.87318833,
+      "prophet": 66786127.98850475,
+      "xgboost": 30524033.90476503,
+      "lstm": 66281111.51405995
+    },
+    "forecast_weeks": [
+      {
+        "week_start": "2023-12-10",
+        "forecast_sales": 43787112.0
+      },
+      {
+        "week_start": "2023-12-17",
+        "forecast_sales": 54821192.0
+      },
+      {
+        "week_start": "2023-12-24",
+        "forecast_sales": 45298420.0
+      },
+      {
+        "week_start": "2023-12-31",
+        "forecast_sales": 40489948.0
+      },
+      {
+        "week_start": "2024-01-07",
+        "forecast_sales": 54450872.0
+      },
+      {
+        "week_start": "2024-01-14",
+        "forecast_sales": 61345060.0
+      },
+      {
+        "week_start": "2024-01-21",
+        "forecast_sales": 11175074.0
+      },
+      {
+        "week_start": "2024-01-28",
+        "forecast_sales": 40331660.0
+      }
+    ]
+  },
+  {
+    "state": "Florida",
+    "best_model": "xgboost",
+    "validation_rmse": {
+      "sarima": 776543839.6444083,
+      "prophet": 578967341.1104404,
+      "xgboost": 304411222.638841,
+      "lstm": 491767071.04486674
+    },
+    "forecast_weeks": [
+      {
+        "week_start": "2023-12-10",
+        "forecast_sales": 366211264.0
+      },
+      {
+        "week_start": "2023-12-17",
+        "forecast_sales": 341788576.0
+      },
+      {
+        "week_start": "2023-12-24",
+        "forecast_sales": 219332656.0
+      },
+      {
+        "week_start": "2023-12-31",
+        "forecast_sales": 236336176.0
+      },
+      {
+        "week_start": "2024-01-07",
+        "forecast_sales": 365141760.0
+      },
+      {
+        "week_start": "2024-01-14",
+        "forecast_sales": 296609600.0
+      },
+      {
+        "week_start": "2024-01-21",
+        "forecast_sales": 216463376.0
+      },
+      {
+        "week_start": "2024-01-28",
+        "forecast_sales": 358860320.0
+      }
+    ]
+  },
+  {
+    "state": "Georgia",
+    "best_model": "xgboost",
+    "validation_rmse": {
+      "sarima": 391936657.7539953,
+      "prophet": 288575580.38258463,
+      "xgboost": 173861999.40520874,
+      "lstm": 265132278.85813367
+    },
+    "forecast_weeks": [
+      {
+        "week_start": "2023-12-10",
+        "forecast_sales": 220108304.0
+      },
+      {
+        "week_start": "2023-12-17",
+        "forecast_sales": 198893536.0
+      },
+      {
+        "week_start": "2023-12-24",
+        "forecast_sales": 162780992.0
+      },
+      {
+        "week_start": "2023-12-31",
+        "forecast_sales": 145118128.0
+      },
+      {
+        "week_start": "2024-01-07",
+        "forecast_sales": 210278192.0
+      },
+      {
+        "week_start": "2024-01-14",
+        "forecast_sales": 190103408.0
+      },
+      {
+        "week_start": "2024-01-21",
+        "forecast_sales": 120705072.0
+      },
+      {
+        "week_start": "2024-01-28",
+        "forecast_sales": 161978576.0
+      }
+    ]
+  },
+  {
+    "state": "Illinois",
+    "best_model": "xgboost",
+    "validation_rmse": {
+      "sarima": 332051283.69878906,
+      "prophet": 244744131.07694185,
+      "xgboost": 116683803.539141,
+      "lstm": 245418750.5341911
+    },
+    "forecast_weeks": [
+      {
+        "week_start": "2023-12-10",
+        "forecast_sales": 175798080.0
+      },
+      {
+        "week_start": "2023-12-17",
+        "forecast_sales": 171875872.0
+      },
+      {
+        "week_start": "2023-12-24",
+        "forecast_sales": 149631264.0
+      },
+      {
+        "week_start": "2023-12-31",
+        "forecast_sales": 102275072.0
+      },
+      {
+        "week_start": "2024-01-07",
+        "forecast_sales": 157966192.0
+      },
+      {
+        "week_start": "2024-01-14",
+        "forecast_sales": 164617120.0
+      },
+      {
+        "week_start": "2024-01-21",
+        "forecast_sales": 96676376.0
+      },
+      {
+        "week_start": "2024-01-28",
+        "forecast_sales": 143108016.0
+      }
+    ]
+  },
+  {
+    "state": "Indiana",
+    "best_model": "xgboost",
+    "validation_rmse": {
+      "sarima": 227744577.23568445,
+      "prophet": 168606227.38992912,
+      "xgboost": 107435537.74871574,
+      "lstm": 161836785.5905028
+    },
+    "forecast_weeks": [
+      {
+        "week_start": "2023-12-10",
+        "forecast_sales": 122628832.0
+      },
+      {
+        "week_start": "2023-12-17",
+        "forecast_sales": 118827232.0
+      },
+      {
+        "week_start": "2023-12-24",
+        "forecast_sales": 102684704.0
+      },
+      {
+        "week_start": "2023-12-31",
+        "forecast_sales": 67048696.0
+      },
+      {
+        "week_start": "2024-01-07",
+        "forecast_sales": 121170896.0
+      },
+      {
+        "week_start": "2024-01-14",
+        "forecast_sales": 128157648.0
+      },
+      {
+        "week_start": "2024-01-21",
+        "forecast_sales": 61938508.0
+      },
+      {
+        "week_start": "2024-01-28",
+        "forecast_sales": 116501184.0
+      }
+    ]
+  },
+  {
+    "state": "Iowa",
+    "best_model": "xgboost",
+    "validation_rmse": {
+      "sarima": 117777989.63267757,
+      "prophet": 85884021.48096652,
+      "xgboost": 54188413.59030527,
+      "lstm": 79815441.57981943
+    },
+    "forecast_weeks": [
+      {
+        "week_start": "2023-12-10",
+        "forecast_sales": 43749576.0
+      },
+      {
+        "week_start": "2023-12-17",
+        "forecast_sales": 52029656.0
+      },
+      {
+        "week_start": "2023-12-24",
+        "forecast_sales": 33904696.0
+      },
+      {
+        "week_start": "2023-12-31",
+        "forecast_sales": 37508352.0
+      },
+      {
+        "week_start": "2024-01-07",
+        "forecast_sales": 52112832.0
+      },
+      {
+        "week_start": "2024-01-14",
+        "forecast_sales": 56592108.0
+      },
+      {
+        "week_start": "2024-01-21",
+        "forecast_sales": 40066944.0
+      },
+      {
+        "week_start": "2024-01-28",
+        "forecast_sales": 50163580.0
+      }
+    ]
+  },
+  {
+    "state": "Kansas",
+    "best_model": "xgboost",
+    "validation_rmse": {
+      "sarima": 90193586.46009956,
+      "prophet": 67396820.46774715,
+      "xgboost": 44432986.99640103,
+      "lstm": 71703967.8653484
+    },
+    "forecast_weeks": [
+      {
+        "week_start": "2023-12-10",
+        "forecast_sales": 47091972.0
+      },
+      {
+        "week_start": "2023-12-17",
+        "forecast_sales": 35083184.0
+      },
+      {
+        "week_start": "2023-12-24",
+        "forecast_sales": 34742096.0
+      },
+      {
+        "week_start": "2023-12-31",
+        "forecast_sales": 37204448.0
+      },
+      {
+        "week_start": "2024-01-07",
+        "forecast_sales": 57344688.0
+      },
+      {
+        "week_start": "2024-01-14",
+        "forecast_sales": 57990028.0
+      },
+      {
+        "week_start": "2024-01-21",
+        "forecast_sales": 15719548.0
+      },
+      {
+        "week_start": "2024-01-28",
+        "forecast_sales": 46239988.0
+      }
+    ]
+  },
+  {
+    "state": "Kentucky",
+    "best_model": "xgboost",
+    "validation_rmse": {
+      "sarima": 176630065.81350344,
+      "prophet": 129687298.84581916,
+      "xgboost": 88181551.41233817,
+      "lstm": 121423596.72649811
+    },
+    "forecast_weeks": [
+      {
+        "week_start": "2023-12-10",
+        "forecast_sales": 106138744.0
+      },
+      {
+        "week_start": "2023-12-17",
+        "forecast_sales": 90394128.0
+      },
+      {
+        "week_start": "2023-12-24",
+        "forecast_sales": 83267072.0
+      },
+      {
+        "week_start": "2023-12-31",
+        "forecast_sales": 70611544.0
+      },
+      {
+        "week_start": "2024-01-07",
+        "forecast_sales": 90658520.0
+      },
+      {
+        "week_start": "2024-01-14",
+        "forecast_sales": 91811696.0
+      },
+      {
+        "week_start": "2024-01-21",
+        "forecast_sales": 46777692.0
+      },
+      {
+        "week_start": "2024-01-28",
+        "forecast_sales": 87658576.0
+      }
+    ]
+  },
+  {
+    "state": "Louisiana",
+    "best_model": "xgboost",
+    "validation_rmse": {
+      "sarima": 190105912.57524714,
+      "prophet": 136791671.07394946,
+      "xgboost": 94867701.92864732,
+      "lstm": 122716557.68969204
+    },
+    "forecast_weeks": [
+      {
+        "week_start": "2023-12-10",
+        "forecast_sales": 94990336.0
+      },
+      {
+        "week_start": "2023-12-17",
+        "forecast_sales": 62184080.0
+      },
+      {
+        "week_start": "2023-12-24",
+        "forecast_sales": 50747452.0
+      },
+      {
+        "week_start": "2023-12-31",
+        "forecast_sales": 54283688.0
+      },
+      {
+        "week_start": "2024-01-07",
+        "forecast_sales": 83663304.0
+      },
+      {
+        "week_start": "2024-01-14",
+        "forecast_sales": 67943816.0
+      },
+      {
+        "week_start": "2024-01-21",
+        "forecast_sales": 46718228.0
+      },
+      {
+        "week_start": "2024-01-28",
+        "forecast_sales": 88563104.0
+      }
+    ]
+  },
+  {
+    "state": "Maine",
+    "best_model": "xgboost",
+    "validation_rmse": {
+      "sarima": 48100947.90249854,
+      "prophet": 34973871.88012271,
+      "xgboost": 17593502.503918864,
+      "lstm": 36870665.36880916
+    },
+    "forecast_weeks": [
+      {
+        "week_start": "2023-12-10",
+        "forecast_sales": 23874282.0
+      },
+      {
+        "week_start": "2023-12-17",
+        "forecast_sales": 16902044.0
+      },
+      {
+        "week_start": "2023-12-24",
+        "forecast_sales": 10967394.0
+      },
+      {
+        "week_start": "2023-12-31",
+        "forecast_sales": 10215689.0
+      },
+      {
+        "week_start": "2024-01-07",
+        "forecast_sales": 21905230.0
+      },
+      {
+        "week_start": "2024-01-14",
+        "forecast_sales": 17981196.0
+      },
+      {
+        "week_start": "2024-01-21",
+        "forecast_sales": 11623832.0
+      },
+      {
+        "week_start": "2024-01-28",
+        "forecast_sales": 17208630.0
+      }
+    ]
+  },
+  {
+    "state": "Maryland",
+    "best_model": "xgboost",
+    "validation_rmse": {
+      "sarima": 166145981.32609355,
+      "prophet": 121392160.58544213,
+      "xgboost": 62085790.82314896,
+      "lstm": 112969055.48211053
+    },
+    "forecast_weeks": [
+      {
+        "week_start": "2023-12-10",
+        "forecast_sales": 90574216.0
+      },
+      {
+        "week_start": "2023-12-17",
+        "forecast_sales": 84809064.0
+      },
+      {
+        "week_start": "2023-12-24",
+        "forecast_sales": 56961092.0
+      },
+      {
+        "week_start": "2023-12-31",
+        "forecast_sales": 52390300.0
+      },
+      {
+        "week_start": "2024-01-07",
+        "forecast_sales": 82147480.0
+      },
+      {
+        "week_start": "2024-01-14",
+        "forecast_sales": 88428112.0
+      },
+      {
+        "week_start": "2024-01-21",
+        "forecast_sales": 56558048.0
+      },
+      {
+        "week_start": "2024-01-28",
+        "forecast_sales": 76276480.0
+      }
+    ]
+  },
+  {
+    "state": "Massachusetts",
+    "best_model": "xgboost",
+    "validation_rmse": {
+      "sarima": 191599292.65255624,
+      "prophet": 138935320.61280444,
+      "xgboost": 61738785.9619975,
+      "lstm": 132976953.85527156
+    },
+    "forecast_weeks": [
+      {
+        "week_start": "2023-12-10",
+        "forecast_sales": 108765600.0
+      },
+      {
+        "week_start": "2023-12-17",
+        "forecast_sales": 87917128.0
+      },
+      {
+        "week_start": "2023-12-24",
+        "forecast_sales": 66606328.0
+      },
+      {
+        "week_start": "2023-12-31",
+        "forecast_sales": 65620384.0
+      },
+      {
+        "week_start": "2024-01-07",
+        "forecast_sales": 97925144.0
+      },
+      {
+        "week_start": "2024-01-14",
+        "forecast_sales": 96894360.0
+      },
+      {
+        "week_start": "2024-01-21",
+        "forecast_sales": 50754716.0
+      },
+      {
+        "week_start": "2024-01-28",
+        "forecast_sales": 90724192.0
+      }
+    ]
+  },
+  {
+    "state": "Michigan",
+    "best_model": "xgboost",
+    "validation_rmse": {
+      "sarima": 301537377.8377513,
+      "prophet": 217670429.9601069,
+      "xgboost": 143127928.1503441,
+      "lstm": 186432009.68868318
+    },
+    "forecast_weeks": [
+      {
+        "week_start": "2023-12-10",
+        "forecast_sales": 120765808.0
+      },
+      {
+        "week_start": "2023-12-17",
+        "forecast_sales": 140079952.0
+      },
+      {
+        "week_start": "2023-12-24",
+        "forecast_sales": 93706664.0
+      },
+      {
+        "week_start": "2023-12-31",
+        "forecast_sales": 74015096.0
+      },
+      {
+        "week_start": "2024-01-07",
+        "forecast_sales": 135029424.0
+      },
+      {
+        "week_start": "2024-01-14",
+        "forecast_sales": 144698480.0
+      },
+      {
+        "week_start": "2024-01-21",
+        "forecast_sales": 117831560.0
+      },
+      {
+        "week_start": "2024-01-28",
+        "forecast_sales": 137272912.0
+      }
+    ]
+  },
+  {
+    "state": "Minnesota",
+    "best_model": "xgboost",
+    "validation_rmse": {
+      "sarima": 159398997.3492115,
+      "prophet": 114757176.5804758,
+      "xgboost": 62195314.33085973,
+      "lstm": 129659106.88717012
+    },
+    "forecast_weeks": [
+      {
+        "week_start": "2023-12-10",
+        "forecast_sales": 73519424.0
+      },
+      {
+        "week_start": "2023-12-17",
+        "forecast_sales": 66820956.0
+      },
+      {
+        "week_start": "2023-12-24",
+        "forecast_sales": 36890404.0
+      },
+      {
+        "week_start": "2023-12-31",
+        "forecast_sales": 46781228.0
+      },
+      {
+        "week_start": "2024-01-07",
+        "forecast_sales": 78670336.0
+      },
+      {
+        "week_start": "2024-01-14",
+        "forecast_sales": 80535768.0
+      },
+      {
+        "week_start": "2024-01-21",
+        "forecast_sales": 67935936.0
+      },
+      {
+        "week_start": "2024-01-28",
+        "forecast_sales": 77946416.0
+      }
+    ]
+  },
+  {
+    "state": "Mississippi",
+    "best_model": "xgboost",
+    "validation_rmse": {
+      "sarima": 123214277.31389983,
+      "prophet": 89449547.08954048,
+      "xgboost": 59363125.11630858,
+      "lstm": 91502800.17131782
+    },
+    "forecast_weeks": [
+      {
+        "week_start": "2023-12-10",
+        "forecast_sales": 35345244.0
+      },
+      {
+        "week_start": "2023-12-17",
+        "forecast_sales": 54026020.0
+      },
+      {
+        "week_start": "2023-12-24",
+        "forecast_sales": 47945572.0
+      },
+      {
+        "week_start": "2023-12-31",
+        "forecast_sales": 45264800.0
+      },
+      {
+        "week_start": "2024-01-07",
+        "forecast_sales": 66219132.0
+      },
+      {
+        "week_start": "2024-01-14",
+        "forecast_sales": 77706088.0
+      },
+      {
+        "week_start": "2024-01-21",
+        "forecast_sales": 19231990.0
+      },
+      {
+        "week_start": "2024-01-28",
+        "forecast_sales": 77112240.0
+      }
+    ]
+  },
+  {
+    "state": "Missouri",
+    "best_model": "xgboost",
+    "validation_rmse": {
+      "sarima": 196923038.0274565,
+      "prophet": 145947232.28211784,
+      "xgboost": 108877371.91937827,
+      "lstm": 122539746.81773831
+    },
+    "forecast_weeks": [
+      {
+        "week_start": "2023-12-10",
+        "forecast_sales": 101196616.0
+      },
+      {
+        "week_start": "2023-12-17",
+        "forecast_sales": 85114640.0
+      },
+      {
+        "week_start": "2023-12-24",
+        "forecast_sales": 78068480.0
+      },
+      {
+        "week_start": "2023-12-31",
+        "forecast_sales": 73749624.0
+      },
+      {
+        "week_start": "2024-01-07",
+        "forecast_sales": 98700264.0
+      },
+      {
+        "week_start": "2024-01-14",
+        "forecast_sales": 116200040.0
+      },
+      {
+        "week_start": "2024-01-21",
+        "forecast_sales": 43121292.0
+      },
+      {
+        "week_start": "2024-01-28",
+        "forecast_sales": 98445384.0
+      }
+    ]
+  },
+  {
+    "state": "Nebraska",
+    "best_model": "xgboost",
+    "validation_rmse": {
+      "sarima": 60223963.18480471,
+      "prophet": 44248545.79778778,
+      "xgboost": 40985432.42819841,
+      "lstm": 42031492.84266039
+    },
+    "forecast_weeks": [
+      {
+        "week_start": "2023-12-10",
+        "forecast_sales": 19753414.0
+      },
+      {
+        "week_start": "2023-12-17",
+        "forecast_sales": 28183494.0
+      },
+      {
+        "week_start": "2023-12-24",
+        "forecast_sales": 27808682.0
+      },
+      {
+        "week_start": "2023-12-31",
+        "forecast_sales": 30068510.0
+      },
+      {
+        "week_start": "2024-01-07",
+        "forecast_sales": 30840196.0
+      },
+      {
+        "week_start": "2024-01-14",
+        "forecast_sales": 35947716.0
+      },
+      {
+        "week_start": "2024-01-21",
+        "forecast_sales": 13529876.0
+      },
+      {
+        "week_start": "2024-01-28",
+        "forecast_sales": 31268404.0
+      }
+    ]
+  },
+  {
+    "state": "Nevada",
+    "best_model": "xgboost",
+    "validation_rmse": {
+      "sarima": 103577898.40494388,
+      "prophet": 77906837.07904352,
+      "xgboost": 50446115.34240879,
+      "lstm": 73938762.77152455
+    },
+    "forecast_weeks": [
+      {
+        "week_start": "2023-12-10",
+        "forecast_sales": 51379364.0
+      },
+      {
+        "week_start": "2023-12-17",
+        "forecast_sales": 47050216.0
+      },
+      {
+        "week_start": "2023-12-24",
+        "forecast_sales": 29234610.0
+      },
+      {
+        "week_start": "2023-12-31",
+        "forecast_sales": 29337378.0
+      },
+      {
+        "week_start": "2024-01-07",
+        "forecast_sales": 49730552.0
+      },
+      {
+        "week_start": "2024-01-14",
+        "forecast_sales": 60971884.0
+      },
+      {
+        "week_start": "2024-01-21",
+        "forecast_sales": 27375768.0
+      },
+      {
+        "week_start": "2024-01-28",
+        "forecast_sales": 52465120.0
+      }
+    ]
+  },
+  {
+    "state": "New Hampshire",
+    "best_model": "xgboost",
+    "validation_rmse": {
+      "sarima": 57572043.96821532,
+      "prophet": 41526257.80600654,
+      "xgboost": 23246220.81056882,
+      "lstm": 42572491.10760476
+    },
+    "forecast_weeks": [
+      {
+        "week_start": "2023-12-10",
+        "forecast_sales": 22775018.0
+      },
+      {
+        "week_start": "2023-12-17",
+        "forecast_sales": 26164856.0
+      },
+      {
+        "week_start": "2023-12-24",
+        "forecast_sales": 19074186.0
+      },
+      {
+        "week_start": "2023-12-31",
+        "forecast_sales": 18802028.0
+      },
+      {
+        "week_start": "2024-01-07",
+        "forecast_sales": 31544190.0
+      },
+      {
+        "week_start": "2024-01-14",
+        "forecast_sales": 27496886.0
+      },
+      {
+        "week_start": "2024-01-21",
+        "forecast_sales": 22704890.0
+      },
+      {
+        "week_start": "2024-01-28",
+        "forecast_sales": 25501360.0
+      }
+    ]
+  },
+  {
+    "state": "New Mexico",
+    "best_model": "xgboost",
+    "validation_rmse": {
+      "sarima": 75527914.85299465,
+      "prophet": 54531090.78454609,
+      "xgboost": 43204161.156358965,
+      "lstm": 45698354.687855326
+    },
+    "forecast_weeks": [
+      {
+        "week_start": "2023-12-10",
+        "forecast_sales": 33228804.0
+      },
+      {
+        "week_start": "2023-12-17",
+        "forecast_sales": 36030004.0
+      },
+      {
+        "week_start": "2023-12-24",
+        "forecast_sales": 27747930.0
+      },
+      {
+        "week_start": "2023-12-31",
+        "forecast_sales": 25129000.0
+      },
+      {
+        "week_start": "2024-01-07",
+        "forecast_sales": 41156912.0
+      },
+      {
+        "week_start": "2024-01-14",
+        "forecast_sales": 40006904.0
+      },
+      {
+        "week_start": "2024-01-21",
+        "forecast_sales": 17589798.0
+      },
+      {
+        "week_start": "2024-01-28",
+        "forecast_sales": 35424448.0
+      }
+    ]
+  },
+  {
+    "state": "New York",
+    "best_model": "xgboost",
+    "validation_rmse": {
+      "sarima": 440761850.7688721,
+      "prophet": 328562762.5075248,
+      "xgboost": 138986404.2231241,
+      "lstm": 329597607.0216098
+    },
+    "forecast_weeks": [
+      {
+        "week_start": "2023-12-10",
+        "forecast_sales": 193790432.0
+      },
+      {
+        "week_start": "2023-12-17",
+        "forecast_sales": 238772736.0
+      },
+      {
+        "week_start": "2023-12-24",
+        "forecast_sales": 146529680.0
+      },
+      {
+        "week_start": "2023-12-31",
+        "forecast_sales": 163532544.0
+      },
+      {
+        "week_start": "2024-01-07",
+        "forecast_sales": 243585520.0
+      },
+      {
+        "week_start": "2024-01-14",
+        "forecast_sales": 213770016.0
+      },
+      {
+        "week_start": "2024-01-21",
+        "forecast_sales": 183067760.0
+      },
+      {
+        "week_start": "2024-01-28",
+        "forecast_sales": 189183712.0
+      }
+    ]
+  },
+  {
+    "state": "North Carolina",
+    "best_model": "xgboost",
+    "validation_rmse": {
+      "sarima": 366590501.4741282,
+      "prophet": 274121300.51786834,
+      "xgboost": 158309245.5343401,
+      "lstm": 282864515.15271455
+    },
+    "forecast_weeks": [
+      {
+        "week_start": "2023-12-10",
+        "forecast_sales": 181037136.0
+      },
+      {
+        "week_start": "2023-12-17",
+        "forecast_sales": 169178032.0
+      },
+      {
+        "week_start": "2023-12-24",
+        "forecast_sales": 118936296.0
+      },
+      {
+        "week_start": "2023-12-31",
+        "forecast_sales": 138253760.0
+      },
+      {
+        "week_start": "2024-01-07",
+        "forecast_sales": 175187760.0
+      },
+      {
+        "week_start": "2024-01-14",
+        "forecast_sales": 202838848.0
+      },
+      {
+        "week_start": "2024-01-21",
+        "forecast_sales": 127552712.0
+      },
+      {
+        "week_start": "2024-01-28",
+        "forecast_sales": 167879088.0
+      }
+    ]
+  },
+  {
+    "state": "Ohio",
+    "best_model": "xgboost",
+    "validation_rmse": {
+      "sarima": 377025527.9583344,
+      "prophet": 283888107.2979085,
+      "xgboost": 155120927.7233022,
+      "lstm": 226512930.69023174
+    },
+    "forecast_weeks": [
+      {
+        "week_start": "2023-12-10",
+        "forecast_sales": 179836624.0
+      },
+      {
+        "week_start": "2023-12-17",
+        "forecast_sales": 155848976.0
+      },
+      {
+        "week_start": "2023-12-24",
+        "forecast_sales": 87630056.0
+      },
+      {
+        "week_start": "2023-12-31",
+        "forecast_sales": 102628824.0
+      },
+      {
+        "week_start": "2024-01-07",
+        "forecast_sales": 162334768.0
+      },
+      {
+        "week_start": "2024-01-14",
+        "forecast_sales": 164675312.0
+      },
+      {
+        "week_start": "2024-01-21",
+        "forecast_sales": 180275456.0
+      },
+      {
+        "week_start": "2024-01-28",
+        "forecast_sales": 181976464.0
+      }
+    ]
+  },
+  {
+    "state": "Oklahoma",
+    "best_model": "xgboost",
+    "validation_rmse": {
+      "sarima": 149724453.0648325,
+      "prophet": 109563367.40012516,
+      "xgboost": 82008309.3778322,
+      "lstm": 107348898.19475406
+    },
+    "forecast_weeks": [
+      {
+        "week_start": "2023-12-10",
+        "forecast_sales": 81412576.0
+      },
+      {
+        "week_start": "2023-12-17",
+        "forecast_sales": 79752264.0
+      },
+      {
+        "week_start": "2023-12-24",
+        "forecast_sales": 78238488.0
+      },
+      {
+        "week_start": "2023-12-31",
+        "forecast_sales": 76629680.0
+      },
+      {
+        "week_start": "2024-01-07",
+        "forecast_sales": 87295944.0
+      },
+      {
+        "week_start": "2024-01-14",
+        "forecast_sales": 67255048.0
+      },
+      {
+        "week_start": "2024-01-21",
+        "forecast_sales": 51095604.0
+      },
+      {
+        "week_start": "2024-01-28",
+        "forecast_sales": 65665772.0
+      }
+    ]
+  },
+  {
+    "state": "Oregon",
+    "best_model": "xgboost",
+    "validation_rmse": {
+      "sarima": 116768615.6036336,
+      "prophet": 86681797.77867422,
+      "xgboost": 57509915.18066817,
+      "lstm": 97605795.46277453
+    },
+    "forecast_weeks": [
+      {
+        "week_start": "2023-12-10",
+        "forecast_sales": 54870828.0
+      },
+      {
+        "week_start": "2023-12-17",
+        "forecast_sales": 55102404.0
+      },
+      {
+        "week_start": "2023-12-24",
+        "forecast_sales": 43001760.0
+      },
+      {
+        "week_start": "2023-12-31",
+        "forecast_sales": 42746640.0
+      },
+      {
+        "week_start": "2024-01-07",
+        "forecast_sales": 56451312.0
+      },
+      {
+        "week_start": "2024-01-14",
+        "forecast_sales": 68832992.0
+      },
+      {
+        "week_start": "2024-01-21",
+        "forecast_sales": 17395874.0
+      },
+      {
+        "week_start": "2024-01-28",
+        "forecast_sales": 51725308.0
+      }
+    ]
+  },
+  {
+    "state": "Pennsylvania",
+    "best_model": "xgboost",
+    "validation_rmse": {
+      "sarima": 375486396.04068184,
+      "prophet": 274405220.99149686,
+      "xgboost": 114428608.96916194,
+      "lstm": 294530719.834114
+    },
+    "forecast_weeks": [
+      {
+        "week_start": "2023-12-10",
+        "forecast_sales": 185319792.0
+      },
+      {
+        "week_start": "2023-12-17",
+        "forecast_sales": 130627136.0
+      },
+      {
+        "week_start": "2023-12-24",
+        "forecast_sales": 96367360.0
+      },
+      {
+        "week_start": "2023-12-31",
+        "forecast_sales": 98497072.0
+      },
+      {
+        "week_start": "2024-01-07",
+        "forecast_sales": 162259360.0
+      },
+      {
+        "week_start": "2024-01-14",
+        "forecast_sales": 131346480.0
+      },
+      {
+        "week_start": "2024-01-21",
+        "forecast_sales": 126916152.0
+      },
+      {
+        "week_start": "2024-01-28",
+        "forecast_sales": 194021632.0
+      }
+    ]
+  },
+  {
+    "state": "Rhode Island",
+    "best_model": "xgboost",
+    "validation_rmse": {
+      "sarima": 26510759.886459682,
+      "prophet": 19480094.0934775,
+      "xgboost": 9417024.451429207,
+      "lstm": 20944664.4936916
+    },
+    "forecast_weeks": [
+      {
+        "week_start": "2023-12-10",
+        "forecast_sales": 12127214.0
+      },
+      {
+        "week_start": "2023-12-17",
+        "forecast_sales": 13767103.0
+      },
+      {
+        "week_start": "2023-12-24",
+        "forecast_sales": 11807571.0
+      },
+      {
+        "week_start": "2023-12-31",
+        "forecast_sales": 9781715.0
+      },
+      {
+        "week_start": "2024-01-07",
+        "forecast_sales": 14256893.0
+      },
+      {
+        "week_start": "2024-01-14",
+        "forecast_sales": 17843150.0
+      },
+      {
+        "week_start": "2024-01-21",
+        "forecast_sales": 5924752.5
+      },
+      {
+        "week_start": "2024-01-28",
+        "forecast_sales": 13550490.0
+      }
+    ]
+  },
+  {
+    "state": "South Carolina",
+    "best_model": "xgboost",
+    "validation_rmse": {
+      "sarima": 196153231.2524802,
+      "prophet": 147536376.2490972,
+      "xgboost": 98883959.89249149,
+      "lstm": 144432319.88800266
+    },
+    "forecast_weeks": [
+      {
+        "week_start": "2023-12-10",
+        "forecast_sales": 89719256.0
+      },
+      {
+        "week_start": "2023-12-17",
+        "forecast_sales": 86140184.0
+      },
+      {
+        "week_start": "2023-12-24",
+        "forecast_sales": 58725168.0
+      },
+      {
+        "week_start": "2023-12-31",
+        "forecast_sales": 61803760.0
+      },
+      {
+        "week_start": "2024-01-07",
+        "forecast_sales": 93032936.0
+      },
+      {
+        "week_start": "2024-01-14",
+        "forecast_sales": 97723152.0
+      },
+      {
+        "week_start": "2024-01-21",
+        "forecast_sales": 61035536.0
+      },
+      {
+        "week_start": "2024-01-28",
+        "forecast_sales": 92194704.0
+      }
+    ]
+  },
+  {
+    "state": "South Dakota",
+    "best_model": "xgboost",
+    "validation_rmse": {
+      "sarima": 29149202.184080295,
+      "prophet": 20905909.34683798,
+      "xgboost": 17334373.43502614,
+      "lstm": 18849523.856630284
+    },
+    "forecast_weeks": [
+      {
+        "week_start": "2023-12-10",
+        "forecast_sales": 11037283.0
+      },
+      {
+        "week_start": "2023-12-17",
+        "forecast_sales": 11272267.0
+      },
+      {
+        "week_start": "2023-12-24",
+        "forecast_sales": 7399105.0
+      },
+      {
+        "week_start": "2023-12-31",
+        "forecast_sales": 6965581.0
+      },
+      {
+        "week_start": "2024-01-07",
+        "forecast_sales": 13261904.0
+      },
+      {
+        "week_start": "2024-01-14",
+        "forecast_sales": 11360884.0
+      },
+      {
+        "week_start": "2024-01-21",
+        "forecast_sales": 15054637.0
+      },
+      {
+        "week_start": "2024-01-28",
+        "forecast_sales": 10301985.0
+      }
+    ]
+  },
+  {
+    "state": "Tennessee",
+    "best_model": "xgboost",
+    "validation_rmse": {
+      "sarima": 263391141.78064713,
+      "prophet": 194986998.95196742,
+      "xgboost": 123343023.37629,
+      "lstm": 207334252.35160097
+    },
+    "forecast_weeks": [
+      {
+        "week_start": "2023-12-10",
+        "forecast_sales": 155713552.0
+      },
+      {
+        "week_start": "2023-12-17",
+        "forecast_sales": 133402264.0
+      },
+      {
+        "week_start": "2023-12-24",
+        "forecast_sales": 99941288.0
+      },
+      {
+        "week_start": "2023-12-31",
+        "forecast_sales": 100050872.0
+      },
+      {
+        "week_start": "2024-01-07",
+        "forecast_sales": 138040768.0
+      },
+      {
+        "week_start": "2024-01-14",
+        "forecast_sales": 126427816.0
+      },
+      {
+        "week_start": "2024-01-21",
+        "forecast_sales": 43323916.0
+      },
+      {
+        "week_start": "2024-01-28",
+        "forecast_sales": 105834136.0
+      }
+    ]
+  },
+  {
+    "state": "Texas",
+    "best_model": "xgboost",
+    "validation_rmse": {
+      "sarima": 922743931.4639611,
+      "prophet": 684846635.7614766,
+      "xgboost": 454632922.41150385,
+      "lstm": 610743199.5164285
+    },
+    "forecast_weeks": [
+      {
+        "week_start": "2023-12-10",
+        "forecast_sales": 412880704.0
+      },
+      {
+        "week_start": "2023-12-17",
+        "forecast_sales": 416719968.0
+      },
+      {
+        "week_start": "2023-12-24",
+        "forecast_sales": 268955936.0
+      },
+      {
+        "week_start": "2023-12-31",
+        "forecast_sales": 244691600.0
+      },
+      {
+        "week_start": "2024-01-07",
+        "forecast_sales": 381854848.0
+      },
+      {
+        "week_start": "2024-01-14",
+        "forecast_sales": 370640416.0
+      },
+      {
+        "week_start": "2024-01-21",
+        "forecast_sales": 289117280.0
+      },
+      {
+        "week_start": "2024-01-28",
+        "forecast_sales": 470715328.0
+      }
+    ]
+  },
+  {
+    "state": "Utah",
+    "best_model": "xgboost",
+    "validation_rmse": {
+      "sarima": 85909400.49424572,
+      "prophet": 63174411.27313031,
+      "xgboost": 45818074.09608786,
+      "lstm": 62704835.64722564
+    },
+    "forecast_weeks": [
+      {
+        "week_start": "2023-12-10",
+        "forecast_sales": 31973746.0
+      },
+      {
+        "week_start": "2023-12-17",
+        "forecast_sales": 44103756.0
+      },
+      {
+        "week_start": "2023-12-24",
+        "forecast_sales": 34338584.0
+      },
+      {
+        "week_start": "2023-12-31",
+        "forecast_sales": 39246400.0
+      },
+      {
+        "week_start": "2024-01-07",
+        "forecast_sales": 48058352.0
+      },
+      {
+        "week_start": "2024-01-14",
+        "forecast_sales": 45057036.0
+      },
+      {
+        "week_start": "2024-01-21",
+        "forecast_sales": 25251164.0
+      },
+      {
+        "week_start": "2024-01-28",
+        "forecast_sales": 38249108.0
+      }
+    ]
+  },
+  {
+    "state": "Vermont",
+    "best_model": "xgboost",
+    "validation_rmse": {
+      "sarima": 18951297.33731957,
+      "prophet": 13761887.250070643,
+      "xgboost": 6879176.94685675,
+      "lstm": 11704045.510251751
+    },
+    "forecast_weeks": [
+      {
+        "week_start": "2023-12-10",
+        "forecast_sales": 7363333.5
+      },
+      {
+        "week_start": "2023-12-17",
+        "forecast_sales": 8590735.0
+      },
+      {
+        "week_start": "2023-12-24",
+        "forecast_sales": 6760321.5
+      },
+      {
+        "week_start": "2023-12-31",
+        "forecast_sales": 5879611.0
+      },
+      {
+        "week_start": "2024-01-07",
+        "forecast_sales": 9942485.0
+      },
+      {
+        "week_start": "2024-01-14",
+        "forecast_sales": 12030937.0
+      },
+      {
+        "week_start": "2024-01-21",
+        "forecast_sales": 3533630.5
+      },
+      {
+        "week_start": "2024-01-28",
+        "forecast_sales": 9548607.0
+      }
+    ]
+  },
+  {
+    "state": "Virginia",
+    "best_model": "xgboost",
+    "validation_rmse": {
+      "sarima": 297459614.7455869,
+      "prophet": 218766341.00723118,
+      "xgboost": 161485028.5674363,
+      "lstm": 186798265.56466323
+    },
+    "forecast_weeks": [
+      {
+        "week_start": "2023-12-10",
+        "forecast_sales": 151077536.0
+      },
+      {
+        "week_start": "2023-12-17",
+        "forecast_sales": 155055856.0
+      },
+      {
+        "week_start": "2023-12-24",
+        "forecast_sales": 132549792.0
+      },
+      {
+        "week_start": "2023-12-31",
+        "forecast_sales": 104876760.0
+      },
+      {
+        "week_start": "2024-01-07",
+        "forecast_sales": 132470664.0
+      },
+      {
+        "week_start": "2024-01-14",
+        "forecast_sales": 122253800.0
+      },
+      {
+        "week_start": "2024-01-21",
+        "forecast_sales": 107097400.0
+      },
+      {
+        "week_start": "2024-01-28",
+        "forecast_sales": 133857192.0
+      }
+    ]
+  },
+  {
+    "state": "Washington",
+    "best_model": "xgboost",
+    "validation_rmse": {
+      "sarima": 190221928.93186945,
+      "prophet": 141243445.38107365,
+      "xgboost": 105688176.09745672,
+      "lstm": 130704097.829905
+    },
+    "forecast_weeks": [
+      {
+        "week_start": "2023-12-10",
+        "forecast_sales": 97492016.0
+      },
+      {
+        "week_start": "2023-12-17",
+        "forecast_sales": 108522000.0
+      },
+      {
+        "week_start": "2023-12-24",
+        "forecast_sales": 93108064.0
+      },
+      {
+        "week_start": "2023-12-31",
+        "forecast_sales": 74817960.0
+      },
+      {
+        "week_start": "2024-01-07",
+        "forecast_sales": 104422344.0
+      },
+      {
+        "week_start": "2024-01-14",
+        "forecast_sales": 116171360.0
+      },
+      {
+        "week_start": "2024-01-21",
+        "forecast_sales": 34316156.0
+      },
+      {
+        "week_start": "2024-01-28",
+        "forecast_sales": 72855152.0
+      }
+    ]
+  },
+  {
+    "state": "West Virginia",
+    "best_model": "xgboost",
+    "validation_rmse": {
+      "sarima": 74595475.4021289,
+      "prophet": 55986302.915298015,
+      "xgboost": 38127604.14409391,
+      "lstm": 47908363.50330042
+    },
+    "forecast_weeks": [
+      {
+        "week_start": "2023-12-10",
+        "forecast_sales": 33326044.0
+      },
+      {
+        "week_start": "2023-12-17",
+        "forecast_sales": 36331048.0
+      },
+      {
+        "week_start": "2023-12-24",
+        "forecast_sales": 23309460.0
+      },
+      {
+        "week_start": "2023-12-31",
+        "forecast_sales": 25959298.0
+      },
+      {
+        "week_start": "2024-01-07",
+        "forecast_sales": 41141500.0
+      },
+      {
+        "week_start": "2024-01-14",
+        "forecast_sales": 34542668.0
+      },
+      {
+        "week_start": "2024-01-21",
+        "forecast_sales": 29699238.0
+      },
+      {
+        "week_start": "2024-01-28",
+        "forecast_sales": 37076752.0
+      }
+    ]
+  },
+  {
+    "state": "Wisconsin",
+    "best_model": "xgboost",
+    "validation_rmse": {
+      "sarima": 161036564.40524316,
+      "prophet": 116098699.32014744,
+      "xgboost": 44039731.607134804,
+      "lstm": 103654041.05504109
+    },
+    "forecast_weeks": [
+      {
+        "week_start": "2023-12-10",
+        "forecast_sales": 70826680.0
+      },
+      {
+        "week_start": "2023-12-17",
+        "forecast_sales": 82850816.0
+      },
+      {
+        "week_start": "2023-12-24",
+        "forecast_sales": 56023672.0
+      },
+      {
+        "week_start": "2023-12-31",
+        "forecast_sales": 57968344.0
+      },
+      {
+        "week_start": "2024-01-07",
+        "forecast_sales": 88572160.0
+      },
+      {
+        "week_start": "2024-01-14",
+        "forecast_sales": 77372168.0
+      },
+      {
+        "week_start": "2024-01-21",
+        "forecast_sales": 66827328.0
+      },
+      {
+        "week_start": "2024-01-28",
+        "forecast_sales": 74708512.0
+      }
+    ]
+  },
+  {
+    "state": "Wyoming",
+    "best_model": "xgboost",
+    "validation_rmse": {
+      "sarima": 21886715.65060653,
+      "prophet": 16014523.400028508,
+      "xgboost": 11223194.733725734,
+      "lstm": 15186028.925769774
+    },
+    "forecast_weeks": [
+      {
+        "week_start": "2023-12-10",
+        "forecast_sales": 11758515.0
+      },
+      {
+        "week_start": "2023-12-17",
+        "forecast_sales": 12704503.0
+      },
+      {
+        "week_start": "2023-12-24",
+        "forecast_sales": 10779991.0
+      },
+      {
+        "week_start": "2023-12-31",
+        "forecast_sales": 8456199.0
+      },
+      {
+        "week_start": "2024-01-07",
+        "forecast_sales": 15024401.0
+      },
+      {
+        "week_start": "2024-01-14",
+        "forecast_sales": 9660755.0
+      },
+      {
+        "week_start": "2024-01-21",
+        "forecast_sales": 2248988.0
+      },
+      {
+        "week_start": "2024-01-28",
+        "forecast_sales": 9342949.0
+      }
+    ]
+  }
+]

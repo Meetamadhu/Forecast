@@ -17,5 +17,6 @@ build/
 .vscode/
 *.log
 
-# Regenerate with: python scripts/train.py
-artifacts/
+# Other artifact outputs (manifest is tracked for evaluation / turnkey API demo)
+artifacts/*
+!artifacts/manifest.json
