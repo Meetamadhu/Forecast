@@ -103,6 +103,8 @@ Evaluators asked for a **short video** together with **code** and **documentatio
 
 After uploading, add one line near the top of this README, e.g. **`Demo video: https://…`**, commit, and push so the link ships with the repo.
 
+**Speaker notes — what to show + exact narration:** open **`VIDEO_DEMO_GUIDE.md`** in the repo root (section-by-section).
+
 ### Suggested outline (~**5–8 minutes**)
 
 | Time | Show / say |
