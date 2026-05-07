@@ -1,6 +1,6 @@
 # Weekly sales forecasting (case study)
 
-**Demo video:** *(add your link here after you upload — see [Demo video (submission)](#demo-video-submission))*
+**Demo video (Loom):** [Recording 1](https://www.loom.com/share/2a522b9251bb4e4790f35aefe62a7062) · [Recording 2](https://www.loom.com/share/e8867c02068746debbf6860feb7888f8)
 
 End-to-end pipeline: load `Forecasting Case- Study.xlsx`, engineer lag / calendar / rolling features, compare **SARIMAX**, **Prophet**, **XGBoost** (recursive), and **LSTM**, pick the best model per state on a trailing validation window, then forecast **8 weeks** ahead.
 
@@ -99,9 +99,12 @@ Repository: [github.com/Meetamadhu/Forecast](https://github.com/Meetamadhu/Forec
 Evaluators asked for a **short video** together with **code** and **documentation**. Typical submission bundle:
 
 1. **GitHub repo** — [Meetamadhu/Forecast](https://github.com/Meetamadhu/Forecast) (README + PDF + Excel + code).
-2. **Video** — upload to **YouTube (Unlisted)**, **Google Drive**, **OneDrive**, or your course portal; submit the link where your instructor specifies.
+2. **Video** — hosted on **Loom** for this submission:
+   - [Demo — part 1](https://www.loom.com/share/2a522b9251bb4e4790f35aefe62a7062)
+   - [Demo — part 2](https://www.loom.com/share/e8867c02068746debbf6860feb7888f8)  
+   *(You can also use YouTube Unlisted, Drive, or your course portal if required.)*
 
-After uploading, add one line near the top of this README, e.g. **Demo video: https://…**, commit, and push so the link ships with the repo.
+Links are repeated at the top of this README for quick access.
 
 ### Suggested outline (~**5–8 minutes**)
 
