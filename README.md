@@ -48,7 +48,7 @@ Sales are aggregated to **weekly** series (`W-SUN`); lag and rolling windows are
 | ----------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | **Lags t−1, t−7, t−30**             | Columns `lag_1`, `lag_7`, `lag_30` via `shift` on the weekly target (`supervised_frame_from_series`). Same lags for recursive XGBoost steps via `next_step_feature_row`.                                                                                             |
 | **Rolling mean / std**              | `roll_mean_7`, `roll_std_7`, `roll_mean_30`, `roll_std_30`. Rolling uses **`shift(1)`** before `rolling(...)` so the current week’s target is not included in its own rolling stats.                                                                 |
-| **Day of week, month, holiday**     | `dow` (index weekday), `month`, `holiday_week` (US holidays touching the 7 calendar days from the week label), via `holidays` + `add_calendar_features`.                                                                                              |
+| **Day of week, month, holiday**     | `dow` (index weekday), `month`, `holiday_week` (US holidays touching the 7 calendar days from the week label), via `holidays` + `add_calendar_features`.                                                                                                             |
 | **Train / validation (no leakage)** | `forecasting/splits.py`: last **`val_weeks`** observations are validation; all earlier data are train-only for scoring (`trainer.py` → `evaluate_models_on_val`). No shuffle. Final 8-week forecast refits the chosen model on the **full** history after selection. |
 
 
@@ -106,14 +106,5 @@ Evaluators asked for a **short video** together with **code** and **documentatio
 
 Links are repeated at the top of this README for quick access.
 
-### Suggested outline (~**5–8 minutes**)
 
-
-| Time          | Show / say                                                                                                                                                                                                    |
-| ------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| **0:00–0:45** | Goal: **8-week** sales forecast **per state**; four models (**SARIMAX, Prophet, XGBoost, LSTM**); **best model** chosen by validation RMSE.                                                                   |
-| **0:45–2:00** | **Features**: open `forecasting/features.py` — lags **1 / 7 / 30**, rolling **mean/std**, **dow**, **month**, **holiday_week**; **split**: `forecasting/splits.py` (time-ordered, no shuffle).                |
-| **2:00–3:30** | **Outputs**: `artifacts/manifest.json` — **`best_model`**, **`validation_rmse`**, **`forecast_weeks`** (8 steps). Optionally show `python scripts/train.py` for a few seconds (or skip—training is long). |
-| **3:30–6:00** | **API**: terminal — `uvicorn api.main:app --host 127.0.0.1 --port 8765` → browser **`/docs`** → **`GET /states`** → **`GET /forecast/Texas`** — show JSON response. |
-| **End**       | Point to **README** “For evaluators” + repo URL; mention **`POST /train`** if you want to show retraining (optional). |
 
