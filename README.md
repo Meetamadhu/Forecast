@@ -43,12 +43,14 @@ Implemented in `forecasting/features.py` and used by **XGBoost** and **LSTM** (t
 
 Sales are aggregated to **weekly** series (`W-SUN`); lag and rolling windows are therefore in **weeks**, not days.
 
-| Requirement | Implementation |
-|---------------|----------------|
-| **Lags t−1, t−7, t−30** | Columns `lag_1`, `lag_7`, `lag_30` via `shift` on the weekly target (`supervised_frame_from_series`). Same lags for recursive XGBoost steps via `next_step_feature_row`. |
-| **Rolling mean / std** | `roll_mean_7`, `roll_std_7`, `roll_mean_30`, `roll_std_30`. Rolling uses **`shift(1)`** before `rolling(...)` so the current week’s target is not included in its own rolling stats. |
-| **Day of week, month, holiday** | `dow` (index weekday), `month`, `holiday_week` (US holidays touching the 7 calendar days from the week label), via `holidays` + `add_calendar_features`. |
-| **Train / validation (no leakage)** | `forecasting/splits.py`: last **`val_weeks`** observations are validation; all earlier data are train-only for scoring (`trainer.py` → `evaluate_models_on_val`). No shuffle. Final 8-week forecast refits the chosen model on the **full** history after selection. |
+
+| Requirement                         | Implementation                                                                                                                                                                                                                                                       |
+| ----------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Lags t−1, t−7, t−30**             | Columns `lag_1`, `lag_7`, `lag_30` via `shift` on the weekly target (`supervised_frame_from_series`). Same lags for recursive XGBoost steps via `next_step_feature_row`.                                                                                             |
+| **Rolling mean / std**              | `roll_mean_7`, `roll_std_7`, `roll_mean_30`, `roll_std_30`. Rolling uses `**shift(1)`** before `rolling(...)` so the current week’s target is not included in its own rolling stats.                                                                                 |
+| **Day of week, month, holiday**     | `dow` (index weekday), `month`, `holiday_week` (US holidays touching the 7 calendar days from the week label), via `holidays` + `add_calendar_features`.                                                                                                             |
+| **Train / validation (no leakage)** | `forecasting/splits.py`: last `**val_weeks`** observations are validation; all earlier data are train-only for scoring (`trainer.py` → `evaluate_models_on_val`). No shuffle. Final 8-week forecast refits the chosen model on the **full** history after selection. |
+
 
 ## API
 
@@ -58,14 +60,14 @@ From the project root:
 uvicorn api.main:app --reload --host 127.0.0.1 --port 8000
 ```
 
-On some Windows setups binding to `0.0.0.0` or port `8000` triggers **`WinError 10013`** (socket permission). If that happens:
+On some Windows setups binding to `0.0.0.0` or port `8000` triggers `**WinError 10013**` (socket permission). If that happens:
 
-1. Use **`127.0.0.1`** and another port, e.g. **`8080`** or **`8765`**  
-   `uvicorn api.main:app --host 127.0.0.1 --port 8765`
-2. Omit **`--reload`** if the error persists (reload uses extra watchers on Windows).  
-   `uvicorn api.main:app --host 127.0.0.1 --port 8765`
-3. Check whether Hyper‑V / Docker reserved a port range (PowerShell):  
-   `netsh interface ipv4 show excludedportrange protocol=tcp`  
+1. Use `**127.0.0.1**` and another port, e.g. `**8080**` or `**8765**`
+  `uvicorn api.main:app --host 127.0.0.1 --port 8765`
+2. Omit `**--reload**` if the error persists (reload uses extra watchers on Windows).
+  `uvicorn api.main:app --host 127.0.0.1 --port 8765`
+3. Check whether Hyper‑V / Docker reserved a port range (PowerShell):
+  `netsh interface ipv4 show excludedportrange protocol=tcp`  
    Pick a port **outside** those ranges.
 
 - `GET /health` — liveness  
@@ -85,14 +87,16 @@ The loader auto-detects columns whose names suggest **date**, **state** (or regi
 
 Repository: [github.com/Meetamadhu/Forecast](https://github.com/Meetamadhu/Forecast)
 
-| What to verify | How |
-|----------------|-----|
-| **Data & case brief** | `Case - Study - Forecasting.pdf`, `Forecasting Case- Study.xlsx` in repo root. |
-| **Four models + selection** | `forecasting/model_zoo.py` — SARIMAX, Prophet, XGBoost, LSTM; `pick_best` on validation RMSE; `forecasting/trainer.py` refits winner and writes 8-week horizon. |
-| **Feature engineering** | See table under **Feature engineering** above; code in `forecasting/features.py`. |
-| **No leakage** | `forecasting/splits.py` — strictly chronological train/val. |
-| **API** | `api/main.py` — `GET /health`, `GET /states`, `GET /forecast/{state}`, `POST /train`. Open **http://127.0.0.1:8000/docs** after `uvicorn api.main:app --host 127.0.0.1 --port 8000`. |
-| **Prebuilt outputs (optional)** | `artifacts/manifest.json` is committed so the API can be tested **without** retraining. To refresh: `python scripts/train.py`. |
+
+| What to verify                  | How                                                                                                                                                                                                                |
+| ------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| **Data & case brief**           | `Case - Study - Forecasting.pdf`, `Forecasting Case- Study.xlsx` in repo root.                                                                                                                                     |
+| **Four models + selection**     | `forecasting/model_zoo.py` — SARIMAX, Prophet, XGBoost, LSTM; `pick_best` on validation RMSE; `forecasting/trainer.py` refits winner and writes 8-week horizon.                                                    |
+| **Feature engineering**         | See table under **Feature engineering** above; code in `forecasting/features.py`.                                                                                                                                  |
+| **No leakage**                  | `forecasting/splits.py` — strictly chronological train/val.                                                                                                                                                        |
+| **API**                         | `api/main.py` — `GET /health`, `GET /states`, `GET /forecast/{state}`, `POST /train`. Open **[http://127.0.0.1:8000/docs](http://127.0.0.1:8000/docs)** after `uvicorn api.main:app --host 127.0.0.1 --port 8000`. |
+| **Prebuilt outputs (optional)** | `artifacts/manifest.json` is committed so the API can be tested **without** retraining. To refresh: `python scripts/train.py`.                                                                                     |
+
 
 ## Demo video (submission)
 
@@ -101,24 +105,19 @@ Evaluators asked for a **short video** together with **code** and **documentatio
 1. **GitHub repo** — [Meetamadhu/Forecast](https://github.com/Meetamadhu/Forecast) (README + PDF + Excel + code).
 2. **Video** — upload to **YouTube (Unlisted)**, **Google Drive**, **OneDrive**, or your course portal; submit the link where your instructor specifies.
 
-After uploading, add one line near the top of this README, e.g. **`Demo video: https://…`**, commit, and push so the link ships with the repo.
-
-**Speaker notes — what to show + exact narration:** open **`VIDEO_DEMO_GUIDE.md`** in the repo root (section-by-section).
+After uploading, add one line near the top of this README, e.g. `**Demo video: https://…`**, commit, and push so the link ships with the repo.
 
 ### Suggested outline (~**5–8 minutes**)
 
-| Time | Show / say |
-|------|------------|
-| **0:00–0:45** | Goal: **8-week** sales forecast **per state**; four models (**SARIMAX, Prophet, XGBoost, LSTM**); **best model** chosen by validation RMSE. |
-| **0:45–2:00** | **Features**: open `forecasting/features.py` — lags **1 / 7 / 30**, rolling **mean/std**, **dow**, **month**, **holiday_week**; **split**: `forecasting/splits.py` (time-ordered, no shuffle). |
-| **2:00–3:30** | **Outputs**: `artifacts/manifest.json` — **`best_model`**, **`validation_rmse`**, **`forecast_weeks`** (8 steps). Optionally show **`python scripts/train.py`** for a few seconds (or skip—training is long). |
-| **3:30–6:00** | **API**: terminal — `uvicorn api.main:app --host 127.0.0.1 --port 8765` → browser **`/docs`** → **`GET /states`** → **`GET /forecast/Texas`** — show JSON response. |
-| **End** | Point to **README** “For evaluators” + repo URL; mention **`POST /train`** if you want to show retraining (optional). |
 
-### Recording on Windows
+| Time          | Show / say                                                                                                                                                                                                    |
+| ------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **0:00–0:45** | Goal: **8-week** sales forecast **per state**; four models (**SARIMAX, Prophet, XGBoost, LSTM**); **best model** chosen by validation RMSE.                                                                   |
+| **0:45–2:00** | **Features**: open `forecasting/features.py` — lags **1 / 7 / 30**, rolling **mean/std**, **dow**, **month**, **holiday_week**; **split**: `forecasting/splits.py` (time-ordered, no shuffle).                |
+| **2:00–3:30** | **Outputs**: `artifacts/manifest.json` — `**best_model`**, `**validation_rmse**`, `**forecast_weeks**` (8 steps). Optionally show `**python scripts/train.py**` for a few seconds (or skip—training is long). |
+| **3:30–6:00** | **API**: terminal — `uvicorn api.main:app --host 127.0.0.1 --port 8765` → browser `**/docs`** → `**GET /states**` → `**GET /forecast/Texas**` — show JSON response.                                           |
+| **End**       | Point to **README** “For evaluators” + repo URL; mention `**POST /train`** if you want to show retraining (optional).                                                                                         |
 
-- **Xbox Game Bar**: `Win + G` → Widget menu → Capture → Start recording.  
-- **PowerPoint**: **Insert → Screen recording**.  
-- **OBS Studio** (free): display capture + optional microphone.
 
-Use **720p/1080p**, zoom browser (**Ctrl + +**), pause on JSON so numbers are readable.
+
+

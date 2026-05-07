@@ -17,6 +17,9 @@ build/
 .vscode/
 *.log
 
+# Local-only demo script (not published)
+VIDEO_DEMO_GUIDE.md
+
 # Other artifact outputs (manifest is tracked for evaluation / turnkey API demo)
 artifacts/*
 !artifacts/manifest.json
