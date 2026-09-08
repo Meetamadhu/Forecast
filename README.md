@@ -81,7 +81,7 @@ The loader auto-detects columns whose names suggest **date**, **state** (or regi
 
 ## For evaluators
 
-Repository: [github.com/Meetamadhu/Forecast](https://github.com/Meetamadhu/Forecast)
+Repository: [github.com/Meetamadhu/Demand-Forecasting-Pipeline](https://github.com/Meetamadhu/Demand-Forecasting-Pipeline)
 
 
 | What to verify                  | How                                                                                                                                                                                                                |
@@ -98,7 +98,7 @@ Repository: [github.com/Meetamadhu/Forecast](https://github.com/Meetamadhu/Forec
 
 Evaluators asked for a **short video** together with **code** and **documentation**. Typical submission bundle:
 
-1. **GitHub repo** — [Meetamadhu/Forecast](https://github.com/Meetamadhu/Forecast) (README + PDF + Excel + code).
+1. **GitHub repo** — [Meetamadhu/Demand-Forecasting-Pipeline](https://github.com/Meetamadhu/Demand-Forecasting-Pipeline) (README + PDF + Excel + code).
 2. **Video** — hosted on **Loom** for this submission:
    - [Demo — part 1](https://www.loom.com/share/2a522b9251bb4e4790f35aefe62a7062)
    - [Demo — part 2](https://www.loom.com/share/e8867c02068746debbf6860feb7888f8)  
